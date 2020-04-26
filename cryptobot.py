@@ -101,7 +101,7 @@ if __name__ == '__main__':
     session = requests.Session()
 
     while True:
-        ## Will run every 15 minutes, means this program needs to be executed roughly when the latest candle finishes
+        ## Will run every 15 minutes. Starting at the beginning or the end of the candle has it's advantages and disadvantages
         data = get_candle_data(config=config, session=session)
         if data != None:
 
