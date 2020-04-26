@@ -1,6 +1,6 @@
 # CryptoBot
 
-You'll need to edit the password.json file in root directory with the following information
+You'll need to edit/create the password.json file in root directory with the following information
 
 {"password": "password",
 "sender": "sender email address",
